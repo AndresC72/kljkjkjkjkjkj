@@ -1,0 +1,20 @@
+/*............... buscarEventosScreen.js........http://localhost:8080/eventos..... */
+
+
+.landingFirstImg{
+background-image: url('../img/fondoAzul.png');
+background-size: cover;
+margin-left:0;
+padding: 40% 0 0 0;
+min-height:300%;
+background-repeat: no-repeat;
+
+}  
+
+hr{
+height: 1px;
+width: 90%;
+background-color:#fe4914; 
+}
+
+

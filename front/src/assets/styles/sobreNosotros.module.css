@@ -1,0 +1,251 @@
+
+
+
+.landingFirstImg{
+background-image: url('../img/fondos/FondoContacto.jpeg');
+background-size: cover;
+margin-left:0;
+padding: 0 0 0 0;
+background-repeat: no-repeat;
+height: 45vh;
+
+
+}
+
+.tab1{
+background-color:#273991;
+color: white;
+border-bottom-left-radius:6.25rem;
+border-bottom-right-radius:6.25rem;
+padding: 3% 5% 5% 5%;  
+
+}
+
+
+
+.tab1 p{
+padding-left: 3%;
+padding-right: 3%;
+text-align: justify;
+}
+
+
+.tab1 hr{
+padding-left: 30%;
+width: 65%;}
+
+
+
+.tab2{
+background-color:#e2e2e2;
+color: rgb(0, 0, 0);
+border-bottom-left-radius:6.25rem;
+border-bottom-right-radius:6.25rem;
+padding: 3% 5% 5% 5%; 
+}
+
+
+
+.tab2 p{
+padding-left: 3%;
+padding-right: 3%;
+text-align: justify;
+}
+    
+    
+.tab2 hr{
+padding-left: 30%;
+width: 65%;
+background-color: #000000;}
+
+   
+.tab3{
+background-color:#fe4914;
+color: white;
+border-bottom-left-radius:6.25rem;
+border-bottom-right-radius:6.25rem;
+padding: 3% 5% 5% 5%;
+}
+
+.tab3 p{
+padding-left: 10%;
+padding-right: 20%;
+text-align: justify;
+}
+
+
+.tab3 hr{
+padding-left: 30%;
+width: 65%;
+background-color: #273991;
+}
+
+
+
+
+
+
+
+
+.headerStyle{
+
+
+    background-color: red;
+}
+
+/* formulario */
+.formulario{
+clear:both;
+position:relative;
+max-width:720px;
+margin:5% auto auto 8% ;
+padding:0 10px 0 0px;
+background-color:rgba(255, 255, 255, 0);
+
+}
+
+
+.texto h3 {
+	clear:both;
+	padding:5% 0 0 5%;
+	font-weight:bold;
+	text-align: left;	
+}
+
+
+
+
+form .field {
+	margin-top:10px; 
+    margin-bottom:15px;
+   
+}
+
+
+
+
+
+form .field:first-child {
+	margin-top:0;
+}
+
+form .field:after {
+	content:"\0020"; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	overflow:hidden; 
+	visibility:hidden;
+}
+
+form label {
+	display:block; 
+	float:left; 
+	width:140px; 
+	margin-right:20px;	
+	font-size:14px; 
+    line-height:32px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+form .inputs {
+	float:left; 
+    width:calc(100% - 160px);
+    
+}
+
+
+input.aweform, select.aweform, textarea.aweform {
+	font-family:Arial,Tahoma,Sans-Serif; 
+	font-size:13px; 
+	line-height:18px;
+}
+
+input.aweform[type=text], textarea.aweform, select.aweform {
+	position:relative;
+	background:#e2e2e2;
+	width:350px;
+	border-radius: 10px 10px 10px 10px !important;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+	border:1px solid #ccc;
+	color:#7e7e7e;
+	height:32px;
+	margin:0;
+	left: 30px;
+	outline:0;
+	padding:5px 10px;
+	-webkit-transition:background-position 0s, border .3s, color .3s;
+	   -moz-transition:background-position 0s, border .3s, color .3s;
+			transition:background-position 0s, border .3s, color .3s;
+}
+
+
+
+input.aweform3[type=text], textarea.aweform3, select.aweform3 {
+    
+    
+    position:relative;
+	background:#fff;
+	width:350px;
+
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+	border:1px solid #ccc;
+	color:#7e7e7e;
+    height:156px;
+    width: 350px;
+	margin:0;
+    left: 190px;
+	outline:0;
+	padding:5px 10px;
+	-webkit-transition:background-position 0s, border .3s, color .3s;
+	   -moz-transition:background-position 0s, border .3s, color .3s;
+			transition:background-position 0s, border .3s, color .3s;
+
+
+
+
+
+}
+
+
+input.aweform[type=text]:focus, textarea.aweform:focus, select.aweform:focus {
+	border-color:#999;
+	color:#333;
+}
+select.aweform {
+	width:350px;
+	border-radius: 10px 10px 10px 10px !important;
+
+
+}
+
+/* Textarea */
+textarea.aweform {
+	width:100%;
+	height:150px;
+}
+
+::-webkit-input-placeholder, input.aweform:-moz-placeholder {
+	color:#bbb;
+}
+
+
+.lowerSidePartOne{   
+display: flex;
+justify-content: center;
+padding-top: 10%;   
+}
+
+.formulario small{
+padding-left: 27%;
+}
+

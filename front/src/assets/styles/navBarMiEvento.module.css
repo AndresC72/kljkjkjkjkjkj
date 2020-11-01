@@ -1,0 +1,62 @@
+.navbarMenu{
+    width:100vw;
+    height: 15%;
+    min-height: 50px;
+position:sticky;
+top: 0;
+}
+
+
+.navItem{
+    background-color: transparent;
+    display:inline-grid;
+    text-align: center;
+    padding: 5px ;
+    width: 150px;
+    padding: 5px 0 20px 0;
+
+}
+
+
+.navItem:hover{
+    text-decoration: none;
+    }
+
+.isActive{
+position: relative;
+background-color: transparent;
+color:white;
+}
+
+.isActive::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height:90px;
+    background-image: url('../img/boleta.png');
+    background-size: contain;
+    z-index:-1;
+}
+
+.start{
+    color:white;
+}
+
+.logo{
+padding-left: 10px;
+}
+
+.logo img{
+    max-width: 150px;
+    height: auto;
+}
+
+.inFront{
+    z-index:100;
+}
+
+.itemsOrg{
+    display:flex;
+flex-direction: row-reverse;
+align-items: center;
+}

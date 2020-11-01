@@ -1,0 +1,186 @@
+
+
+/*  div, span, applet, object, iframe, h1, h2, h3, h4, h6,  p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin:0; 
+	padding:0; 
+	border:0; 
+	outline:0;
+	font-size:100%;
+	color:rgb(22, 22, 22);
+	vertical-align:baseline; 
+	background:transparent;
+}
+ */
+
+.formulario{
+    clear:both;
+	position:relative;
+	max-width:720px;
+	margin:50px auto;
+	padding:0 10px 0 0px;
+	background-color:#e6e6e6;
+}
+
+
+.formulario .titulo {
+	clear:both;
+	padding:0 0 30px;
+	font-size:24px;
+	font-weight:bold;
+	text-align: left;
+	background-color: #e6e6e6;
+}
+
+.titulo{
+font-size:24px;
+text-align: center;
+}
+
+form .field {
+	margin-top:10px; 
+    margin-bottom:15px;   
+}
+
+form .field:first-child {
+	margin-top:0;
+}
+
+form .field:after {
+	content:"\0020"; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	overflow:hidden; 
+	visibility:hidden;
+}
+
+form label {
+	display:block; 
+	float:left; 
+	width:140px; 
+	margin-right:20px;	
+	font-size:14px; 
+    line-height:32px;
+    font-weight: bold;
+}
+
+form .inputs {
+	float:left; 
+    width:calc(100% - 160px);   
+}
+
+input.aweform, select.aweform, textarea.aweform {
+	font-family:Arial,Tahoma,Sans-Serif; 
+	font-size:13px; 
+	line-height:18px;
+}
+
+input.aweform[type=text], textarea.aweform, select.aweform {
+	position:relative;
+	background:#fff;
+	width:350px;
+	border-radius: 10px 10px 10px 10px !important;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+	border:1px solid #ccc;
+	color:#7e7e7e;
+	height:32px;
+	margin:0;
+	left: 30px;
+	outline:0;
+	padding:5px 10px;
+	-webkit-transition:background-position 0s, border .3s, color .3s;
+	   -moz-transition:background-position 0s, border .3s, color .3s;
+			transition:background-position 0s, border .3s, color .3s;
+}
+
+input.aweform2[type=text], textarea.aweform2, select.aweform2 {
+	position:relative;
+	background:#fff;
+	width:275px;
+	border-radius: 10px 10px 10px 10px !important;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+	border:1px solid #ccc;
+	color:#7e7e7e;
+	height:32px;
+	margin:0;
+		outline:0;
+	padding:5px 10px;
+	-webkit-transition:background-position 0s, border .3s, color .3s;
+	   -moz-transition:background-position 0s, border .3s, color .3s;
+			transition:background-position 0s, border .3s, color .3s;
+}
+
+input.aweform3[type=text], textarea.aweform3, select.aweform3 {   
+    
+    position:relative;
+	background:#fff;
+	width:350px;
+
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+	border:1px solid #ccc;
+	color:#7e7e7e;
+    height:156px;
+    width: 550px;
+	margin:0;
+
+	outline:0;
+	padding:5px 10px;
+	-webkit-transition:background-position 0s, border .3s, color .3s;
+	   -moz-transition:background-position 0s, border .3s, color .3s;
+			transition:background-position 0s, border .3s, color .3s;
+}
+
+
+h7{
+	font-size: 12px;
+}
+
+
+input.aweform[type=text]:focus, textarea.aweform:focus, select.aweform:focus {
+	border-color:#999;
+	color:#333;
+}
+select.aweform {
+	width:350px;
+	border-radius: 10px 10px 10px 10px !important;
+}
+
+/* Textarea */
+textarea.aweform {
+	width:100%;
+	height:150px;
+}
+
+::-webkit-input-placeholder, input.aweform:-moz-placeholder {
+	color:#bbb;
+}
+
+
+.lowerSidePartOne{   
+    display: flex;
+    justify-content: center;    
+  }
+
+
+  .Calendario{
+max-width: 30px;
+cursor: pointer;
+margin-left: 5%;
+
+
+  }
+
+
+  .Mas{	
+padding: 2% 0% 5% 5%;
+
+cursor: pointer;
+	
+  }
+
