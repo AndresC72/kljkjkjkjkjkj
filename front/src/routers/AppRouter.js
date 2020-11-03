@@ -33,6 +33,10 @@ import MiCalendarioScreen from "../screens/miCalendarioScreen";
 import MiConfiguracionScreen from "../screens/miConfiguracionScreen";
 import MisEventosPasadosScreen from "../screens/misEventosPasadosScreen";
 
+import App from '../components/auth/App';
+
+
+
 
 export const AppRouter = () => {
 
@@ -104,6 +108,13 @@ export const AppRouter = () => {
 
 
           <PublicRoute
+          path="/dashboard"
+          component={ App }
+          isAuthenticated= {user.logged}
+          />
+
+
+          <PublicRoute
           path="/editor"
           component={ TextEditor }
           isAuthenticated= {user.logged}
@@ -122,20 +133,20 @@ export const AppRouter = () => {
             component={ MisEventosPasadosScreen }
             isAuthenticated={user.logged}
           />
-                              <PublicRoute
+          <PublicRoute
             exact 
             path="/tuCalendario"
             component={ MiCalendarioScreen }
             isAuthenticated={user.logged}
           />
-                              <PublicRoute
+          <PublicRoute
             exact 
             path="/tuConfiguracion"
             component={ MiConfiguracionScreen }
             isAuthenticated={user.logged}
           />
 
-<PublicRoute
+          <PublicRoute
             exact 
             path="/tusEstadisticasEvento"
             component={ MisEstadisticasScreen }

@@ -52,8 +52,8 @@
     "postcss-loader": "^4.0.4",
     "react": "^16.13.1",
     "react-bootstrap-tabs": "^2.0.0",
-    "react-cover-carousel": "0.0.5",
     "react-color": "^2.18.1",
+    "react-cover-carousel": "0.0.5",
     "react-dom": "^16.13.1",
     "react-draft-wysiwyg": "^1.14.5",
     "react-elastic-carousel": "^0.9.1",
@@ -62,11 +62,13 @@
     "react-lorem-ipsum": "^1.4.7",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
     "reactstrap": "^8.6.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.0",
-    "sweetalert2": "^10.8.1"
+    "sweetalert2": "^10.8.1",
+    "validator": "^13.1.17"
   },
   "standard": {
     "ignore": [

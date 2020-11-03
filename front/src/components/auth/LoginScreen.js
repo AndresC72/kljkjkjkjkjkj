@@ -1,7 +1,5 @@
-import React, {useState}  from  'react';
-
-import { useDispatch, useSelector, Provider } from 'react-redux';
-
+import React  from  'react';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { Link } from 'react-router-dom';
 import { useForm } from '../../hooks/useForm';
@@ -20,10 +18,7 @@ import {faFacebook} from '@fortawesome/free-brands-svg-icons';
 import {faGooglePlus} from '@fortawesome/free-brands-svg-icons';
 
 
-export const LoginScreen = ({history}) => {
-
-
-
+export const LoginScreen = () => {
 
     const dispatch = useDispatch();
     const { loading } = useSelector( state => state.ui );
@@ -49,7 +44,7 @@ export const LoginScreen = ({history}) => {
 
     const handleFacebookLogin = () => {
         dispatch( startFacebookLogin() );
-        history.push("/"); 
+       history.push("/"); 
     }
 
 
@@ -76,8 +71,8 @@ return(
 							<div className= {`${Style.inputs}`}>                                
 								 
                                     <input 
-
                                     className= {`${Style.aweform}`}
+                                    placeholder="Correo"
                                     type="text"                                 
                                     name="email"                                  
                                     autoComplete="off"
@@ -97,6 +92,7 @@ return(
                             <input 
                             
                                 className= {`${Style.aweform}`}
+                                placeholder="Contraseña"
                                 type="password"
                                 name="password"                              
                                 value={ password }
@@ -112,7 +108,7 @@ return(
                            
                     disabled={ loading }
                 >
-                    INGRESAR
+                    Ingresar
                 </button>
                 </div> 
 
@@ -167,7 +163,7 @@ return(
                            
                     disabled={ loading }
                 >
-                    REGISTRARSE
+                    Registrarse
                 </button>
                 </div> 
 

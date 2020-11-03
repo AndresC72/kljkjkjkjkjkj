@@ -5,7 +5,6 @@ import Swal from 'sweetalert2'
 import { useForm } from '../../hooks/useForm';
 import { setError, removeError } from '../../actions/ui';
 import { startRegisterWithEmailPasswordName } from '../../actions/auth';
-import OrganizadorPagoScreen from './ColorPicker';
 
 // ----- Estilos para la pagina de login/registro---------
 import Style from  './../../assets/styles/login.module.css';
@@ -136,7 +135,7 @@ const isFormValid = () => {
 </div>
 
 <div className= {`${Style.field}`}>
-<label>Confirma  contraseña:</label>
+<label>Confirma contraseña:</label>
 <div className= {`${Style.inputs}`}>
 
 
@@ -161,10 +160,6 @@ const isFormValid = () => {
                 </button>
  </div>              
 
-
-                <div>
-                    <OrganizadorPagoScreen/>
-                </div>
 
 
                 <Link 
